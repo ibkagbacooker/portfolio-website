@@ -3,13 +3,13 @@
 <html>
 <head>
 	
-	<title>ibukun's website</title>
+	<title>Home</title>
 	
 	<!--Define character set-->
 	<meta charset="utf-8">
 	<meta name="description" content=" Ibukunoluwa's portfolio website">
 	<meta name="keywords" content=" web-design, portfolio, coding, Ibukunoluwa,">
-	<meta name="author" content=" ">
+	<meta name="author" content="ibukun">
 	
 	<!--link bootstrap-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,6 +20,10 @@
 	
 	<!--fontawesome-->
 		<link href="fontawesome/css/all.css" rel="stylesheet"> 
+		
+	<!--favicon-->
+		
+		<link rel="icon" type="image/x-icon" href="images/Joseph_Bologne.png">
 
 		
 		
@@ -30,10 +34,7 @@
 			
 		}
 		
-		div{
-		border: 1px solid red;
-		/*min-height: 100px;*/
-		}
+		
 		
 		.nav-link{
 			color: black !important;
@@ -45,7 +46,29 @@
 			color: #696b73 !important;
 			
 		}
+		.fa-solid:hover{
+			color: #9598A4 !important;
 		
+		}
+		
+		.ibukun:hover{
+			color: #9598A4 !important;
+		
+		}
+		
+		fixed_nav{
+			position:fixed !important;
+			top:0 !important;
+			
+		
+		}
+		
+		.fixed_div{
+			display:inline;
+			position:fixed;
+			bottom: 3em;
+			right: 1.0em;
+		}
 		
 		
 		
@@ -55,9 +78,9 @@
 <body>	
 	<div class="container-fluid font_class">
 		<div class="row ">
-			<nav class="navbar navbar-expand-sm font_class">
-			  <div class="container-fluid font_class" >
-				<a class="navbar-brand" href="viewwork.html"> <i class="fa-solid fa-user-astronaut"style="color:black; font-size:2.0em;"></i> <span style="color:black;">Ibukunoluwa</span></a>
+			<nav class="navbar navbar-expand-sm font_class fixed_nav">
+			  <div class="container-fluid font_class " >
+				<a class="navbar-brand" href="viewwork.html"> <i class="fa-solid fa-user-astronaut"style="color:black; font-size:2.0em;"></i> <span class="ibukun" style="color:black;">Ibukunoluwa</span></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
@@ -68,7 +91,7 @@
 					  <a class="nav-link" href="#" style="margin-top:0.5em;" >About</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="#" style="margin-top:0.5em;">Contact</a>
+					  <a class="nav-link" href="#form" style="margin-top:0.5em;">Contact</a>
 					</li>
 					<li class="nav-item">
 					  <a class="nav-link" href="viewwork.html" ><button class="btn btn-dark">View Work</button></a>
@@ -87,50 +110,109 @@
 			</div>
 			<div class="col-md-8 p-5">
 				<h1 class="display-1 ">Hi there!</h1>
-				<p style="font-size: 2em">Fuelled by a passion for developing compelling <br>products, I have a deep desire to excel and continuously improve in my work. Learn more about<br> my journey below.</p>
+				<p style="font-size: 1.5em">Fuelled by a passion for developing compelling <br>products, I have a deep desire to excel and continuously improve in my work. Learn more about<br> my journey below.</p>
 			</div>
 		</div>
 		
 		
-		<div class="row justify-content-around ">
-			<div class="col-md-8"></div>
-			<div class="col-md-4"></div>
+		<div class="row justify-content-around" style="margin:15em 2em 4em 2em;">
+			<div class="col-md-8 p-2">
+				<h2 class="display-5" style="margin-bottom: 0.4em; font-weight:bold;">My Career So Far</h2>
+				<p style="font-size: 1.5em">Always up for a challenge, I have worked for lean start-ups and was a member of the first Nigerian start-up to attend Y Combinator, the largest start-up accelerator in the world. From there, I worked my way up to senior engineer and Team Lead at spotify where I oversaw the design of 30+ web and mobile apps.</p>
+			</div>
+			<div class="col-md-4 p-5">
+				<button type="button" class="btn btn-outline-dark m-1">HTML</button>
+				<button type="button" class="btn btn-outline-dark m-1">CSS</button>
+				<button type="button" class="btn btn-outline-dark m-1">JAVASCRIPT</button>
+				<button type="button" class="btn btn-outline-dark m-1">PYTHON</button>
+				<button type="button" class="btn btn-outline-dark m-1">J-QUERY</button>
+				<button type="button" class="btn btn-outline-dark m-1">BOOTSTRAP</button>
+				<button type="button" class="btn btn-outline-dark m-1">Tailwind</button>
+				<button type="button" class="btn btn-outline-dark m-1">PHP</button>
+				<button type="button" class="btn btn-outline-dark m-1">DJANGO</button>
+				<button type="button" class="btn btn-outline-dark m-1">SYSTEM ARCHITECTURE</button>
+				<button type="button" class="btn btn-outline-dark m-1">WIRE FRAMING</button>
+				
+			
+			</div>
 		</div>
 		
-		<div class="row ">
+		<div class="row " style="margin:15em 2em 4em 2em;">
 			<div class="col-md-12 ">
 				
 				<div class="row ">
-					<div class="col-md-12"></div>
+					<div class="col-md-12 mb-3">
+						<h2 class="display-5" style="margin-bottom: 0.4em; font-weight:bold;">On Working With Me</h2>
+					
+					</div>
 					
 				</div>
-				<div class="row ">
-					<div class="col-md-3"></div>
-					<div class="col-md-9"></div>
+				<div class="row" >
+					<div class="col-md-3 text-center">
+						<img src="images/warren_wong.jpg" style= "border-radius: 50%" alt="warren wong" >
+						<p style="font-weight: bold">Warren Wong</p>
+						<p>Senior engineer, Google</p> 
+					
+					</div>
+					<div class="col-md-9">
+						<p style="font-size: 1.5em">"Ibukun is a guru at all things Web development, consistently producing intuitive, modern, and bold software solutions. He is a natural problem solver in the development space so everyone went to him if they were stuck on a feature or flow. He has a arsenal of development skills including frameworks like react and Django. Ibk was a team lead, which means he managed a full team of both onshore and offshore projects reviewing and providing feedback on all of their solutions... Any business would be lucky to have him."</p>
+					
+					</div>
 					
 				</div>
 				
 			</div>
 		
+		</div>
 		
-		
-		<div class="row ">
+		<div class="row " style="margin:15em 2em 4em 2em; border: 1px solid black; border-radius:7px; ">
 			<div class="col-md-12">
 				<div class="row ">
-					<div class="col-md-6"></div>
-					<div class="col-md-6"></div>
+					<div class="col-md-6">
+						<h1 class="display-1 ">Want to get in touch?</h1>
+					</div>
+					
+					<div class="col-md-6" style="color: #9598A4">
+						<form action="" method="" id="form">
+							<div class="mb-3 mt-3">
+							  <label for="Full_Name" class="form-label">Name</label>
+							  <input type="text" class="form-control" id="Full_Name" placeholder="Name">
+							</div>
+							
+							<div class="mb-3 mt-3">
+							  <label for="Email" class="form-label">Email address</label>
+							  <input type="email" class="form-control" id="Email" placeholder="Email address">
+							</div>
+							
+							<div class="mb-3">
+							  <label for="FormControlTextarea1" class="form-label">Message</label>
+							  <textarea class="form-control" id="FormControlTextarea1" rows="3"  placeholder="Email address" ></textarea>
+							</div>
+							<div class="mb-3">
+							  <button class="btn btn-dark btn-lg" type="submit">Submit</button>
+							</div>
+						</form>
+
+						
+					</div>
 				</div>
 			</div>
 			
 		</div>
-		<div class="row">
-			<div class="col-md-12">
 		
+		<div class="row text-center" style="margin:9em 2em 4em 2em; ">
+			<div class="col-md-12" style="color: #9598A4">
+				
+				<p style="font-size: 1.3em">2022 &copy ibukunoluwa Ogunfowokan. All rights reserved</p>
+			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
 		
-		</div>
+		
+				<div class="fixed_div">
+					<i class="fa-brands fa-linkedin" style="color:black; font-size:2.5em;"></i>
+					
+				</div>
+		
 		
 	</div>
 	
